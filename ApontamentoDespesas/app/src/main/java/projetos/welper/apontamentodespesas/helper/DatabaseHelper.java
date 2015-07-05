@@ -78,7 +78,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 + Despesa.CATEGORIA + " TEXT, "
                 + Despesa.VALOR + " DOUBLE, "
                 + Despesa.DATA + " DATE, forma_pgto TEXT, "
-                + Despesa.DESCRICAO + " TEXT, ");
+                + Despesa.DESCRICAO + " TEXT );");
     }
 
     private void tabelaUsuario (SQLiteDatabase db) {
